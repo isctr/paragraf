@@ -21374,16 +21374,18 @@ cr.plugins_.Touch = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
-	cr.plugins_.Touch,
-	cr.plugins_.Sprite,
 	cr.plugins_.Text,
+	cr.plugins_.Sprite,
+	cr.plugins_.Touch,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.plugins_.Text.prototype.acts.SetOpacity,
+	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
+	cr.system_object.prototype.acts.GoToLayout,
+	cr.system_object.prototype.acts.ResetGlobals,
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.system_object.prototype.cnds.EveryTick,
 	cr.plugins_.Text.prototype.acts.SetText,
-	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
 	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
 	cr.plugins_.Sprite.prototype.exps.UID,
 	cr.plugins_.Audio.prototype.acts.Play,
@@ -21392,7 +21394,9 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.CreateObject,
 	cr.plugins_.Touch.prototype.exps.X,
 	cr.plugins_.Touch.prototype.exps.Y,
+	cr.system_object.prototype.acts.Wait,
 	cr.system_object.prototype.acts.SubVar,
 	cr.system_object.prototype.acts.NextPrevLayout,
+	cr.plugins_.Sprite.prototype.acts.SetOpacity,
 	cr.plugins_.Text.prototype.cnds.PickByUID
 ];};
