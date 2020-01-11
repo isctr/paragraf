@@ -21374,9 +21374,9 @@ cr.plugins_.Touch = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
-	cr.plugins_.Text,
-	cr.plugins_.Sprite,
 	cr.plugins_.Touch,
+	cr.plugins_.Sprite,
+	cr.plugins_.Text,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.plugins_.Text.prototype.acts.SetOpacity,
 	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
