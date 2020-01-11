@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.aocetinns.paragrafsoru" version="1.0.1" android-versionCode="2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.aocetinns.paragraffsoru" version="1.0.1" android-versionCode="2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>Paragraf Soruları</name>
 	<description>Paragraf soruları ve cevapları</description>
 	<author href="http://www.sorucenneti.net" email="genckafem@gmail.com">genckafem</author>
